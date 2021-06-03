@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Video Info</title>
+  </head>
+  <body>
+    <h1>Video info</h1>
+
+    <form>
+      <div>
+        <label>Select a video </label>
+        <input type="file" accept="video/*" />
+      </div>
+      <button type="submit">Get Info</button>
+    </form>
+
+    <h2 id="result"></h2>
+
+    <script>
+      require("../dist/renderer.js");
+    </script>
+  </body>
+</html>
