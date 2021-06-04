@@ -1,0 +1,22 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/fluent-ffmpeg": "^2.1.17",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "yarn build && electron ./dist/index.js",
+    "electron": "electron ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^13.1.0",
+    "eslint": "^7.27.0",
+    "typescript": "^4.3.2"
+  }
+}
